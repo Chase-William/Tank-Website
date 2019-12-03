@@ -1,0 +1,215 @@
+/*
+Colors used:
+background-color = #FFF;
+buttons = #9d98b9;
+a:float = #CDADFF;
+table-background-color = #CCC;
+tableRed = #FF2F2F;
+tableYellow = #F7FF47;
+tableGreen = #48FF47;
+*/
+body {
+	font-family: Verdana, Arial, Sans-serif;
+	background-color: #FFF;
+	width: 96%
+	margin-left: 2%;
+	margin-right: 2%;
+}
+a {
+	background-color: #9d98b9;
+	display: inline;
+	color: #000;
+	box-shadow: 2px 2px 2px #555;
+}
+a:hover {
+	color: #CDADFF;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 90%;
+	margin: 0 5% 1% 5%;
+}
+nav ul li a {
+	display: block;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	border-bottom: 1px solid #EEE;	
+	border-radius: 10px;
+	box-shadow: none;
+}
+img {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.tank-img{
+	box-shadow: 3px 3px 5px #555;
+	float: center;
+}
+.headerOfSite{
+	text-align: center;
+	font-size: 2.5em;
+}
+.imageWithProduction h2 {
+	margin: 3%;
+	padding: 0;
+	font-size: 1.5em;
+}
+
+/* Armor Table */
+table {
+	background-color: #CCC;
+	width: 100%;
+	border-radius: 10px;
+}
+tr {
+	border-top: 1px solid black;
+}
+table tr th {
+	font-size: 1.2em;
+	align: top;
+}
+table tr td {
+	text-align: center;
+}	
+/* Table Colors */
+
+.red {
+	background-color: #FF2F2F;
+}
+.yellow {
+	background-color: #F7FF47;
+}
+.green {
+	background-color: #48FF47;
+}
+
+/* Sources */
+.list {
+	padding: 5px 0 5px;
+}
+
+.horizontalLine{
+	padding: 0;
+	width: 100%
+}
+.footer-info h3 {
+	font-size: 1.2em;
+}
+ol {
+	padding-left: 0;
+}
+.footer-info ol li{
+	display: block;
+	color: gray;
+	padding-top: 10px;
+	line-height: 20px;
+}
+.footer-info ol li a {
+	text-decoration: none;
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+	display: inline;
+	color: black;
+}
+.footer-info ol li a:hover{
+	color: #CDADFF;
+}
+.backToTopButton{
+	padding-left: 5px;
+	width: 95px;
+	display: block;
+	text-decoration: none;
+}
+
+
+
+
+/* Media for tablet */
+@media only screen and (min-width: 768px) {
+body {		
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+nav ul {
+	width: 100%;
+	align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #9d98b9;
+	box-shadow: 3px 3px 5px #555;	
+	border-radius: 10px;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a {
+	padding: 10px;
+	border-right: 1px solid #FFF;
+	border-bottom: 0;
+	border-radius: 0px;
+}
+img {
+	width: 50%;
+	float: right;
+}
+.imageWithProduction{
+	margin-top: 10px;
+	width: 100%;
+}
+.imageWithProduction h2 {
+	display: inline;
+	color: #222;
+	font-size: 1.5em;
+}
+
+.imageWithProduction p {
+	margin: 0;
+	padding: 10px 10px 5px;
+	font-size: 1em;
+}
+.tank-img{
+	width: 50%;
+}
+.list {
+	padding: 5px 0 5px;
+	font-size: 1em;
+}
+table {
+	max-width: 500px;
+	margin-left: 13%;
+	margin-right: 10%;
+	border-radius: 10px;
+}
+}
+
+
+/* Media for desktop */
+@media only screen and (min-width: 1024px) {
+	body {
+	padding: 0 10% 0;
+	margin: 0;
+	width: 80%;
+}
+.headerOfSite{
+	font-size: 2.5em;
+}
+.imageWithProduction h2 {
+	font-size: 2em;
+}
+.imageWithProduction p {
+	font-size: 1.1em;
+}
+.list {
+	font-size: 1.1em;
+}
+}
+
